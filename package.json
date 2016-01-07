@@ -1,0 +1,24 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "Portfolio reboot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencoullie/portfolio2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencoullie/portfolio2/issues"
+  },
+  "homepage": "https://github.com/bencoullie/portfolio2#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1"
+  }
+}
