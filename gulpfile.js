@@ -3,6 +3,15 @@
 var gulp = require('gulp');
 var babel = require('gulp-babel');
 var sass = require('gulp-ruby-sass');
+var haml = require('gulp-ruby-haml');
+
+// Compile Haml into HTML
+
+gulp.task('haml', function() {
+  gulp.src('haml/**/*.haml', {read: true}).
+       pipe(haml()).
+       pipe(gulp.dest(''));
+});
 
 // Compile all SCSS to CSS
 
@@ -23,4 +32,4 @@ gulp.task('babel', function() {
 });
 
 // The default task (runs all designated tasks on 'gulp')
-gulp.task('default', ['babel', 'sass']);
+gulp.task('default', ['babel', 'sass', 'haml']);
