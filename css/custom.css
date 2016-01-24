@@ -6503,24 +6503,6 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 /* ==================================== FONT CALLING ====================================== */
-@font-face {
-  font-family: 'bebas_neuebold';
-  src: url("../fonts/bebasneue_bold-webfont.eot");
-  src: url("../fonts/bebasneue_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebasneue_bold-webfont.woff") format("woff"), url("../fonts/bebasneue_bold-webfont.ttf") format("truetype"), url("../fonts/bebasneue_bold-webfont.svg#bebas_neuebold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'bebas_neuebook';
-  src: url("../fonts/bebasneue_book-webfont.eot");
-  src: url("../fonts/bebasneue_book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebasneue_book-webfont.woff") format("woff"), url("../fonts/bebasneue_book-webfont.ttf") format("truetype"), url("../fonts/bebasneue_book-webfont.svg#bebas_neuebook") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'bebas_neuethin';
-  src: url("../fonts/bebasneue_thin-webfont.eot");
-  src: url("../fonts/bebasneue_thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebasneue_thin-webfont.woff") format("woff"), url("../fonts/bebasneue_thin-webfont.ttf") format("truetype"), url("../fonts/bebasneue_thin-webfont.svg#bebas_neuethin") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 /* ==================================== SITE CSS STYLING ====================================== */
 #landingpage, #aboutpage, #portfoliopage, #contactpage {
   -webkit-box-shadow: 0px 6px 31px -8px rgba(0, 0, 0, 0.75);
