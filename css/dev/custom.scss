@@ -5864,7 +5864,7 @@ textarea {
 
 #landingpage {
   background: url('../img/bg.png');
-  height: 1080px;
+  height: 100vh;
 }
 
 #aboutpage {
@@ -5880,6 +5880,7 @@ textarea {
   -webkit-box-shadow: 0px 2px 31px -8px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 31px -8px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 31px -8px rgba(0,0,0,0.75);
+  margin-top: 60px;
 }
 
 .subpagehead {
@@ -6132,6 +6133,7 @@ footer {
   width: 99%;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 #aboutpage > div.gridmain > div.infoblock.fourthh > div {
@@ -6275,7 +6277,7 @@ a:visited {
 /* ==================================== CONTACT SECTION ====================================== */
 
   .contacthead {
-
+    margin-bottom: 65px;
   }
 
 /* ==================================== MEDIA QUERIES ====================================== */

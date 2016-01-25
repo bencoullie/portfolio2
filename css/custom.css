@@ -6511,7 +6511,7 @@ textarea {
 
 #landingpage {
   background: url("../img/bg.png");
-  height: 1080px; }
+  height: 100vh; }
 
 #aboutpage {
   background: url("../img/bg2.png"); }
@@ -6523,7 +6523,8 @@ textarea {
   background: url("../img/bg3.png");
   -webkit-box-shadow: 0px 2px 31px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 2px 31px -8px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 2px 31px -8px rgba(0, 0, 0, 0.75); }
+  box-shadow: 0px 2px 31px -8px rgba(0, 0, 0, 0.75);
+  margin-top: 60px; }
 
 .subpagehead {
   font-family: 'bebas_neuebold';
@@ -6744,7 +6745,8 @@ footer {
   border-radius: 10px 10px 0 0;
   width: 99%;
   text-align: center;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-bottom: 60px; }
 
 #aboutpage > div.gridmain > div.infoblock.fourthh > div {
   padding: 8px 0; }
@@ -6866,6 +6868,9 @@ a:visited {
   color: #e49061; }
 
 /* ==================================== CONTACT SECTION ====================================== */
+.contacthead {
+  margin-bottom: 65px; }
+
 /* ==================================== MEDIA QUERIES ====================================== */
 @media (max-width: 1680px) {
   #landing {
